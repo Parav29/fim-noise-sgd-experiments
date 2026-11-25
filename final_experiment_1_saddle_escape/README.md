@@ -1,6 +1,6 @@
 # Final Experiment 1 — Noise-assisted escape from a flat stationary region (CIFAR-10)
 
-Figure: `fig_exp1_saddle_escape.png`. Numbers: `summary.json`. Raw data: `raw/E1_smallinit_seed{0,1,2}.json` and `.log`. These are the original E1 runs from `../new experiments result/raw/`, copied unchanged.
+Figure: `fig_exp1_saddle_escape.png`. Numbers: `summary.json`. Raw data: `raw/E1_smallinit_seed{0,1,2}.json` and `.log`. These are the original training runs (made with the same flags as `run_exp1.sh`).
 Reproduce the figure: `python3 make_figure_exp1.py`. Reproduce the training: `./run_exp1.sh` (writes to `raw_rerun/`, never over the originals; about 20 min per seed on an Apple M4 GPU).
 
 ## What it shows

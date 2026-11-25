@@ -1,5 +1,5 @@
 #!/bin/bash
-# Reproduces Final Experiment 1 (the E1 runs of "new experiments result/"); about 20 min per seed on an Apple M4 GPU.
+# Reproduces Final Experiment 1; about 20 min per seed on an Apple M4 GPU.
 # The raw files in raw/ are the original runs; this script writes to raw_rerun/ so they are never overwritten.
 set -e
 cd "$(dirname "$0")/.."
