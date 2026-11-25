@@ -1,0 +1,30 @@
+q=2 theory: {"mu": 0.00871192311062228, "a_crit": 0.3736749707897828, "b_crit": Infinity, "r": 0.42044882955125, "r_lin": 0.8408976591025, "rho1": 0.025701558821118197, "rho2": 0.0033180438880893643, "rho3": 0.0033180438880893643, "thm3_tau_bound": 331.3135494594675, "gd_escape_iters_from_near_init": 624664}
+  q2_saddle_sgd_const              esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q2_saddle_sgd_rm                 esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q2_saddle_fim_const              esc  100.0%  immediate  100.0%  exit   78.0%  switch   24.5%  div   0.0%  tail 0.028448
+  q2_saddle_fim_rm                 esc  100.0%  immediate  100.0%  exit   73.0%  switch   23.5%  div   0.0%  tail 0.003369
+  q2_saddle_iso_const              esc  100.0%  immediate  100.0%  exit  100.0%  switch  100.0%  div   0.0%  tail 0.225412
+  q2_saddle_iso_rm                 esc  100.0%  immediate  100.0%  exit  100.0%  switch   98.0%  div   0.0%  tail 0.006145
+  q2_saddle_fim_const_noiseoff     esc  100.0%  immediate  100.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.0
+  q2_near_sgd_const                esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q2_near_sgd_rm                   esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q2_near_fim_const                esc  100.0%  immediate  100.0%  exit   77.5%  switch   29.5%  div   0.0%  tail 0.028578
+  q2_near_fim_rm                   esc  100.0%  immediate  100.0%  exit   78.5%  switch   26.5%  div   0.0%  tail 0.002496
+  q2_near_iso_const                esc  100.0%  immediate  100.0%  exit  100.0%  switch  100.0%  div   0.0%  tail 0.219658
+  q2_near_iso_rm                   esc  100.0%  immediate  100.0%  exit   99.5%  switch   94.0%  div   0.0%  tail 0.006048
+  q2_near_fim_const_noiseoff       esc  100.0%  immediate  100.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.0
+q=4 theory: {"mu": 0.2398773420210717, "a_crit": 0.3165013606519112, "b_crit": 15.544134217719646, "r": 0.3369726630275, "r_lin": 0.673945326055, "rho1": 0.024397563843568556, "rho2": 0.003467300165528955, "rho3": 0.003467300165528955, "thm3_tau_bound": 268.870531525804, "gd_escape_iters_from_near_init": 312241}
+  q4_saddle_sgd_const              esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q4_saddle_sgd_rm                 esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q4_saddle_fim_const              esc  100.0%  immediate  100.0%  exit   71.0%  switch   22.5%  div   0.0%  tail 0.027595
+  q4_saddle_fim_rm                 esc  100.0%  immediate  100.0%  exit   72.0%  switch   22.0%  div   0.0%  tail 0.002753
+  q4_saddle_iso_const              esc  100.0%  immediate  100.0%  exit  100.0%  switch  100.0%  div   0.0%  tail 0.172403
+  q4_saddle_iso_rm                 esc  100.0%  immediate  100.0%  exit   99.5%  switch   93.0%  div   0.0%  tail 0.003576
+  q4_saddle_fim_const_noiseoff     esc  100.0%  immediate  100.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.0
+  q4_near_sgd_const                esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q4_near_sgd_rm                   esc    0.0%  immediate    0.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.1
+  q4_near_fim_const                esc  100.0%  immediate  100.0%  exit   71.5%  switch   21.0%  div   0.0%  tail 0.027714
+  q4_near_fim_rm                   esc  100.0%  immediate  100.0%  exit   71.5%  switch   20.5%  div   0.0%  tail 0.002572
+  q4_near_iso_const                esc  100.0%  immediate  100.0%  exit  100.0%  switch  100.0%  div   0.0%  tail 0.174574
+  q4_near_iso_rm                   esc  100.0%  immediate  100.0%  exit   99.5%  switch   93.0%  div   0.0%  tail 0.003727
+  q4_near_fim_const_noiseoff       esc  100.0%  immediate  100.0%  exit    0.0%  switch    0.0%  div   0.0%  tail 0.0

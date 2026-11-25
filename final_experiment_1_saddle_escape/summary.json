@@ -1,0 +1,36 @@
+{
+ "sgd": {
+  "final_loss_per_seed": [
+   2.30258470703125,
+   2.3025838671875,
+   2.3025845703125
+  ],
+  "final_loss_mean": 2.3025843815104166,
+  "max_abs_dev_from_ln10": 7.582787203919139e-06,
+  "escape_iter_per_seed": [
+   null,
+   null,
+   null
+  ],
+  "landscape_center": 2.30258203125,
+  "landscape_min": 2.302580859375,
+  "landscape_max": 2.30258359375
+ },
+ "fim_noise": {
+  "final_loss_per_seed": [
+   0.958618232421875,
+   0.95079875,
+   0.94442892578125
+  ],
+  "final_loss_mean": 0.9512819694010418,
+  "max_abs_dev_from_ln10": 1.359977837134671,
+  "escape_iter_per_seed": [
+   1500,
+   1500,
+   1500
+  ],
+  "landscape_center": 0.9680796875,
+  "landscape_min": 0.9680796875,
+  "landscape_max": 18.265359375
+ }
+}
