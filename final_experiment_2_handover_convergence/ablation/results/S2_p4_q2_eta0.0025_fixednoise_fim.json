@@ -1,0 +1,199 @@
+{
+ "name": "S2_p4_q2_eta0.0025_fixednoise_fim",
+ "config": {
+  "p": 4,
+  "q": 2,
+  "init": "saddle",
+  "ii": 0,
+  "noise": "fim",
+  "step": "const",
+  "sched": "const",
+  "full": false,
+  "name": "S2_p4_q2_eta0.0025_fixednoise_fim",
+  "sweep": "S2",
+  "eta": 0.0025,
+  "variant": "fixednoise",
+  "mult": 0.5,
+  "N": 50000,
+  "r_frac": 0.5,
+  "raw_file": "raw/S2_p4_q2_eta0.0025_fixednoise_fim.npz",
+  "event_prefix": "e0_"
+ },
+ "theory": {
+  "p": 4,
+  "q": 2,
+  "eta": 0.0025,
+  "r_frac": 0.5,
+  "noise_mult": 0.5,
+  "rho_radius_frac": 0.5,
+  "saddle_type": "degenerate",
+  "mu_deg": -4.8,
+  "lead": 0.7999999999999999,
+  "hessian_at_saddle": "[[0, 0], [0, 1/5]]",
+  "hessian_at_min": "[[16/5, 0], [0, 1/5]]",
+  "stationary_points": "[(-1, 0), (0, 0), (1, 0)]",
+  "r_lin": 0.8408976591025,
+  "Kp_prime": 0.47568495688559703,
+  "Kp": 1.200002366715372,
+  "Kp1": 0.25245862694358,
+  "opnorm_over_pfact": 0.19999999999999998,
+  "dL": 0.1,
+  "r": 0.42044882955125,
+  "r_rho": 0.42044882955125,
+  "thm4_a": 0.3599985799721769,
+  "thm4_b": 0.014139415751423414,
+  "mu": 0.00871192311062228,
+  "mu_certified": 0.00871192311062228,
+  "mu_source": "Thm 4 (mu_T4/2)",
+  "mu_convention": "R_PL=|g|^2/(2(L-L*))",
+  "a_crit": 0.3736749707897828,
+  "b_crit": Infinity,
+  "exact_radius_along_b0": 0.3736749707897828,
+  "certified_inf_bound": 0.008711923110622279,
+  "grid_inf_ratio_in_D": 0.008711923110622284,
+  "rho1": 0.025701558821118197,
+  "rho2": 0.0033180438880893643,
+  "rho3": 0.0033180438880893643,
+  "rho3_escape_region": 0.0033180438880893643,
+  "r0_eq31": 0.2973022185176357,
+  "eq35_lhs": 0.03750029583985913,
+  "eq35_rhs": 0.15000118335943657,
+  "c_prime": 0.5,
+  "smoothness_ell": 13.265121167995414,
+  "hessian_min_a": 3.2,
+  "noise_step_at_zero_grad": 0.019364993116409605,
+  "random_walk_escape_estimate": 471.4021964677923,
+  "thm3_overshoot_K": 0.016785672876290042,
+  "escape_bound_theorem": "Thm 3",
+  "thm3_tau_bound": 4129.309101429921,
+  "n0_rm": 4130,
+  "iso_sigma": 7.7459972465638405,
+  "gd_escape_iters_from_near_init": 2498585.790621409,
+  "gd_escape_kind": "ODE estimate",
+  "thm4_a_positive": true,
+  "flag_lemma2_radius": false,
+  "flag_rho3_bounds_escape_region": true,
+  "flag_r_ge_acrit": true,
+  "flag_noise_threshold": false,
+  "flag_eta_le_1_over_ell": true,
+  "flag_eta_stable_at_min": true,
+  "flag_n0_ge_bound": true,
+  "flag_mu_attainable": true
+ },
+ "summary": {
+  "n_trajectories": 200,
+  "pct_escaped": 100.0,
+  "pct_immediate_handover": 100.0,
+  "pct_eventual_handover": 0.0,
+  "pct_failed_handover": 0.0,
+  "pct_diverged": 0.0,
+  "pct_retained_no_region_exit": 7.5,
+  "pct_any_region_exit": 92.5,
+  "pct_saddle_reentry": 84.0,
+  "pct_basin_switch_after_handover": 17.0,
+  "t_escape_mean": 528.205,
+  "t_escape_pct": [
+   123.9,
+   244.5,
+   426.5,
+   690.5,
+   1338.6
+  ],
+  "t_handover_pct": [
+   103.65,
+   167.25,
+   323.0,
+   527.5,
+   1035.0999999999997
+  ],
+  "delta_tau_pct": [
+   -571.6999999999999,
+   -79.25,
+   -29.0,
+   -14.0,
+   -6.0
+  ],
+  "delta_tau_min_max": [
+   -1620,
+   -4
+  ],
+  "region_exits_pct": [
+   0.0,
+   2.0,
+   5.0,
+   12.0,
+   24.0
+  ],
+  "last_exit_pct": [
+   147.0,
+   340.0,
+   577.0,
+   954.0,
+   2117.9999999999995
+  ],
+  "tail_mean_loss_pct": [
+   0.010361222089112276,
+   0.012514427574429068,
+   0.014039044029774645,
+   0.015467602168105455,
+   0.01869615362461519
+  ],
+  "escape_time_vs_thm3_bound": 0.12791607192038257,
+  "n_iter": 50000,
+  "n_escaped": 200,
+  "n_censored": 0,
+  "pct_escaped_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "t_escape_mean_escaped_only": 528.205,
+  "t_escape_censored_mean_lower_bound": 528.205,
+  "t_escape_censored_mean_ci95": [
+   475.866,
+   588.230875
+  ],
+  "censored_mean_vs_bound": 0.12791607192038257,
+  "pct_descent": 100.0,
+  "pct_descent_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "t_descent_pct": [
+   231.3,
+   471.0,
+   720.5,
+   1182.0,
+   2023.8999999999983
+  ],
+  "pct_handover": 100.0,
+  "pct_handover_at_or_before_escape": 100.0,
+  "pct_in_region_at_escape_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "pct_saddle_reentry_wilson95": [
+   78.28592983793288,
+   88.43258796841297
+  ],
+  "last_reentry_max": 2894,
+  "last_reentry_pct": [
+   170.7,
+   425.5,
+   679.0,
+   1132.0,
+   2155.15
+  ],
+  "pct_basin_switch_wilson95": [
+   12.427907912586969,
+   22.815883628312626
+  ],
+  "last_switch_max": 2311,
+  "last_region_exit_max": 2925,
+  "pct_in_region_at_end": 100.0,
+  "pct_in_region_at_end_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "floor_median_tail_loss": 0.014039044029774645
+ }
+}

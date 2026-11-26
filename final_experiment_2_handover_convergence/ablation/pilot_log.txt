@@ -1,0 +1,16 @@
+[1/16       1s] pilot_S2_p2_q4_eta0.02_thm_fim              1.0s esc 100.0% reentry 100.0% switch 100.0% inD_end  96.5% div   0.0%
+[2/16       1s] pilot_S3_p2_q2_mult4.0_fim                  1.0s esc 100.0% reentry 100.0% switch 100.0% inD_end  97.5% div   0.0%
+[3/16       1s] pilot_S2_p2_q2_eta0.02_thm_fim              1.0s esc 100.0% reentry 100.0% switch 100.0% inD_end  95.5% div   0.0%
+[4/16       1s] pilot_S3_p2_q4_mult4.0_fim                  1.0s esc 100.0% reentry 100.0% switch 100.0% inD_end  83.0% div   0.0%
+[5/16       2s] pilot_S1_p2_q2_saddle_fim_const             1.4s esc 100.0% reentry 100.0% switch  98.5% inD_end  94.5% div   0.0%
+[6/16       2s] pilot_S1_p2_q2_saddle_iso_const             1.4s esc 100.0% reentry 100.0% switch 100.0% inD_end  79.5% div   0.0%
+[7/16       2s] pilot_S1_p2_q4_saddle_fim_const             1.5s esc 100.0% reentry 100.0% switch 100.0% inD_end  96.5% div   0.0%
+[8/16       2s] pilot_S1_p2_q4_saddle_iso_const             1.5s esc 100.0% reentry 100.0% switch 100.0% inD_end  77.0% div   0.0%
+[9/16       2s] pilot_S1_p8_q2_saddle_fim_const             2.1s esc 100.0% reentry  83.0% switch  14.0% inD_end 100.0% div   0.0%
+[10/16       3s] pilot_S3_p8_q2_mult4.0_fim                  1.4s esc 100.0% reentry  59.5% switch  11.5% inD_end 100.0% div   0.0%
+[11/16       3s] pilot_S2_p8_q2_eta0.02_thm_fim              1.4s esc 100.0% reentry  74.5% switch  14.5% inD_end 100.0% div   0.0%
+[12/16       3s] pilot_S1_p8_q2_saddle_iso_const             1.6s esc 100.0% reentry  99.0% switch  72.0% inD_end  89.0% div   0.0%
+[13/16       3s] pilot_S2_p8_q4_eta0.02_thm_fim              1.3s esc 100.0% reentry  82.5% switch  12.5% inD_end 100.0% div   0.0%
+[14/16       3s] pilot_S3_p8_q4_mult4.0_fim                  1.3s esc 100.0% reentry  53.0% switch   9.5% inD_end 100.0% div   0.0%
+[15/16       3s] pilot_S1_p8_q4_saddle_fim_const             1.8s esc 100.0% reentry  79.0% switch  14.0% inD_end 100.0% div   0.0%
+[16/16       3s] pilot_S1_p8_q4_saddle_iso_const             1.6s esc 100.0% reentry  97.5% switch  53.5% inD_end  92.0% div   0.0%

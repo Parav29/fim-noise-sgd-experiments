@@ -138,3 +138,12 @@ Definitions:
 - The model is two-dimensional and separable, so the handover geometry is simple and the 100% immediate-handover result is structural.
 - There is a single design point (r = r_lin/2, noise at the threshold). Below-threshold noise levels were not run.
 - The near-saddle start is one fixed point, not a distribution.
+
+## Extended ablation
+A parameter-sensitivity and ablation study of this experiment is in [`ablation/README_ablation.md`](ablation/README_ablation.md). It varies:
+- the saddle degree p ∈ {2, 4, 6, 8};
+- the step size η;
+- the noise level;
+- the escape radius.
+
+It also adds a constant-magnitude noise control, and checks every result against the corresponding theorem and its assumptions. The generalised code reproduces this experiment's `summary.json` exactly (`ablation/check_regression.py`).

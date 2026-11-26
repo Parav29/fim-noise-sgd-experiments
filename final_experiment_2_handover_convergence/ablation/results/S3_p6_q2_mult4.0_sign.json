@@ -1,0 +1,198 @@
+{
+ "name": "S3_p6_q2_mult4.0_sign",
+ "config": {
+  "p": 6,
+  "q": 2,
+  "init": "saddle",
+  "ii": 0,
+  "noise": "sign",
+  "step": "const",
+  "sched": "const",
+  "full": false,
+  "name": "S3_p6_q2_mult4.0_sign",
+  "sweep": "S3",
+  "eta": 0.01,
+  "mult": 4.0,
+  "N": 50000,
+  "r_frac": 0.5,
+  "raw_file": "raw/S3_p6_q2_mult4.0_sign.npz",
+  "event_prefix": "e0_"
+ },
+ "theory": {
+  "p": 6,
+  "q": 2,
+  "eta": 0.01,
+  "r_frac": 0.5,
+  "noise_mult": 4.0,
+  "rho_radius_frac": 0.5,
+  "saddle_type": "degenerate",
+  "mu_deg": -144.0,
+  "lead": 1.2,
+  "hessian_at_saddle": "[[0, 0], [0, 1/5]]",
+  "hessian_at_min": "[[36/5, 0], [0, 1/5]]",
+  "stationary_points": "[(-1, 0), (0, 0), (1, 0)]",
+  "r_lin": 0.8909001091000001,
+  "Kp_prime": 0.6734824865001093,
+  "Kp": 1.8000056206998867,
+  "Kp1": 0.2994273818967657,
+  "opnorm_over_pfact": 0.2,
+  "dL": 0.1,
+  "r": 0.44545005455000003,
+  "r_rho": 0.44545005455000003,
+  "thm4_a": 0.809994941378,
+  "thm4_b": 0.003901812972258962,
+  "mu": 0.001199000460541113,
+  "mu_certified": 0.001199000460541113,
+  "mu_source": "Thm 4 (mu_T4/2)",
+  "mu_convention": "R_PL=|g|^2/(2(L-L*))",
+  "a_crit": 0.4189369681082851,
+  "b_crit": Infinity,
+  "exact_radius_along_b0": 0.4189369681082851,
+  "certified_inf_bound": 0.001199000460541113,
+  "grid_inf_ratio_in_D": 0.0011990004605411128,
+  "rho1": 0.008273591187259285,
+  "rho2": 0.00043605381976310906,
+  "rho3": 0.00043605381976310906,
+  "rho3_escape_region": 0.00043605381976310906,
+  "r0_eq31": 0.7071078851919619,
+  "eq35_lhs": 0.9000112414261006,
+  "eq35_rhs": 0.05625070258913127,
+  "c_prime": 0.5,
+  "smoothness_ell": 69.28612276401309,
+  "hessian_min_a": 7.2,
+  "noise_step_at_zero_grad": 0.18973784455675682,
+  "random_walk_escape_estimate": 5.511757574943875,
+  "thm3_overshoot_K": 0.2053032383041944,
+  "escape_bound_theorem": "Thm 3",
+  "thm3_tau_bound": 89.71643259990158,
+  "n0_rm": 1000,
+  "iso_sigma": 18.973784455675684,
+  "gd_escape_iters_from_near_init": 2083332804.2029536,
+  "gd_escape_kind": "ODE estimate",
+  "thm4_a_positive": true,
+  "flag_lemma2_radius": true,
+  "flag_rho3_bounds_escape_region": true,
+  "flag_r_ge_acrit": true,
+  "flag_noise_threshold": true,
+  "flag_eta_le_1_over_ell": true,
+  "flag_eta_stable_at_min": true,
+  "flag_n0_ge_bound": true,
+  "flag_mu_attainable": true
+ },
+ "summary": {
+  "n_trajectories": 200,
+  "pct_escaped": 100.0,
+  "pct_immediate_handover": 100.0,
+  "pct_eventual_handover": 0.0,
+  "pct_failed_handover": 0.0,
+  "pct_diverged": 0.0,
+  "pct_retained_no_region_exit": 0.0,
+  "pct_any_region_exit": 100.0,
+  "pct_saddle_reentry": 100.0,
+  "pct_basin_switch_after_handover": 100.0,
+  "t_escape_mean": 8.83,
+  "t_escape_pct": [
+   3.0,
+   3.0,
+   7.0,
+   11.0,
+   25.0
+  ],
+  "t_handover_pct": [
+   3.0,
+   3.0,
+   7.0,
+   11.0,
+   25.0
+  ],
+  "delta_tau_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "delta_tau_min_max": [
+   0,
+   0
+  ],
+  "region_exits_pct": [
+   3709.0,
+   3800.25,
+   3843.0,
+   3892.0,
+   3967.05
+  ],
+  "last_exit_pct": [
+   49956.9,
+   49978.0,
+   49989.5,
+   49997.0,
+   50000.0
+  ],
+  "tail_mean_loss_pct": [
+   0.7531744006092511,
+   0.8950382374114152,
+   1.0441575531456873,
+   1.2674012401163055,
+   1.6393261693954173
+  ],
+  "escape_time_vs_thm3_bound": 0.09842121163441898,
+  "n_iter": 50000,
+  "n_escaped": 200,
+  "n_censored": 0,
+  "pct_escaped_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "t_escape_mean_escaped_only": 8.83,
+  "t_escape_censored_mean_lower_bound": 8.83,
+  "t_escape_censored_mean_ci95": [
+   7.85975,
+   9.89025
+  ],
+  "censored_mean_vs_bound": 0.09842121163441898,
+  "pct_descent": 100.0,
+  "pct_descent_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "t_descent_pct": [
+   4.0,
+   6.0,
+   16.0,
+   36.25,
+   170.5999999999998
+  ],
+  "pct_handover": 100.0,
+  "pct_handover_at_or_before_escape": 100.0,
+  "pct_in_region_at_escape_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "pct_saddle_reentry_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "last_reentry_max": 50000,
+  "last_reentry_pct": [
+   49957.0,
+   49978.0,
+   49989.0,
+   49997.0,
+   50000.0
+  ],
+  "pct_basin_switch_wilson95": [
+   98.11546736227335,
+   100.0
+  ],
+  "last_switch_max": 50000,
+  "last_region_exit_max": 50000,
+  "pct_in_region_at_end": 64.0,
+  "pct_in_region_at_end_wilson95": [
+   57.141528166003084,
+   70.33080269543346
+  ],
+  "floor_median_tail_loss": 1.0441575531456873
+ }
+}
